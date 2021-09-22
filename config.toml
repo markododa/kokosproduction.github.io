@@ -1,0 +1,106 @@
+baseURL = "http://kokosproduction.mk"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+languageCode = "en-us"
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    title = "Kokos Production"
+    # Navbar Menus
+    [[menu.main]]
+    name    = "Home"
+    url     = "/"
+    weight  = 1
+    [[menu.main]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+    [[menu.main]]
+    name    = "Service"
+    url     = "service"
+    weight  = 3
+    [[menu.main]]
+    name    = "Gallery"
+    url     = "gallery"
+    weight  = 4
+    [[menu.main]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 5
+    [[menu.main]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 6
+    [[menu.main]]
+    name    = "Portfolio"
+    url     = "portfolio"
+    weight  = 7
+   
+    # Site Params
+    [params]
+    home = "Home"
+    logo = "images/logo.png"
+    button = "Continue Reading"
+    dateFormat = "6 January 2006"
+    # Meta data
+    description = "Airspace Hugo theme"
+    author = "Themefisher"
+    # Google Analitycs
+    googleAnalitycsID = "Your ID"
+    # contact form action
+    contactFormAction = "#" # contact form works with https://formspree.io
+    
+    # Banner Section
+    [params.banner]
+    enable  = true
+    bgImage = "images/slider.jpg"
+    heading = "WELCOME TO THE SITE OF KOKOS PRODUCTION"
+    description = "THIS SITE SHOWCASES OUR WORK AND CAPABILITIES"
+    # button
+    btn     = true
+    btnText = "Contact us"
+    btnURL  = "https://www.facebook.com/Kokos-Produkcija-110477254195024/"
+    
+    # flip text
+    [[params.banner.flipText]]
+    title   = "VIDEO"
+    [[params.banner.flipText]]
+    title   = "PHOTOGRAHY"
+    [[params.banner.flipText]]
+    title   = "PRODUCTION"
+    
+    # Homepage About Section
+    [params.about]
+    enable  = true
+    title   = "ABOUT US"
+    content = "About some text"
+    image   = "images/about/about.jpg"
+    
+    # Call to Action
+    [params.cta]
+    enable  = true
+    title   = "SO WHAT YOU THINK ?"
+    content = "Get in touch with us to find out more"
+    btnText = "Contact"
+    btnURL  = "/contact"
+    
+    # Portfolio Section On Homepage
+    [params.portfolio]
+    enable  = true
+    title   = "Latest Works"
+    subtitle= "Showcase of latest works, including photography of events, as well as camera work and production for documentaries, commercials and music videos"
+    
+    # social icon
+    [[params.socialIcon]]
+    icon = "ion-social-facebook"
+    url = "#"
+    
+    [[params.socialIcon]]
+    icon = "ion-social-instagram"
+    url = "#"
+    
+    [[params.socialIcon]]
+    icon = "ion-social-linkedin"
