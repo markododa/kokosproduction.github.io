@@ -19,26 +19,29 @@ defaultContentLanguage = "en"
     url     = "about"
     weight  = 2
     [[menu.main]]
-    name    = "Service"
-    url     = "service"
-    weight  = 3
-    [[menu.main]]
     name    = "Gallery"
     url     = "gallery"
-    weight  = 4
-    [[menu.main]]
-    name    = "Blog"
-    url     = "blog"
-    weight  = 5
+    weight  = 3
     [[menu.main]]
     name    = "Contact"
     url     = "contact"
-    weight  = 6
+    weight  = 4
     [[menu.main]]
-    name    = "Portfolio"
-    url     = "portfolio"
-    weight  = 7
-   
+    name    = "Projects"
+    weight  = 5
+    [[menu.main]]         
+     name    = "Our Projects"
+     url = "projects"
+     parent = "Projects"
+     weight  = 1
+    [[menu.main]]         
+     name    = "Collaborations"
+     url = "colabs"
+     parent = "Projects"
+     weight  = 2
+
+
+
     # Site Params
     [params]
     home = "Home"
@@ -57,8 +60,8 @@ defaultContentLanguage = "en"
     [params.banner]
     enable  = true
     bgImage = "images/slider.jpg"
-    heading = "WELCOME TO THE SITE OF KOKOS PRODUCTION"
-    description = "THIS SITE SHOWCASES OUR WORK AND CAPABILITIES"
+    heading = "WE ARE KOKOS PRODUCTION"
+    description = "OUR CREATIVITY IS UNBRIDLED"
     # button
     btn     = true
     btnText = "Contact us"
@@ -70,13 +73,13 @@ defaultContentLanguage = "en"
     [[params.banner.flipText]]
     title   = "PHOTOGRAHY"
     [[params.banner.flipText]]
-    title   = "PRODUCTION"
+    title   = "ANIMATION"
     
     # Homepage About Section
     [params.about]
     enable  = true
     title   = "ABOUT US"
-    content = "About some text"
+    content = "Kokos Production is a video production company covering all phases of production from development, pre-production, production to post-production.<br>Our creative team is fully invested in each phase to provide the client with quality final products including video, photography, animation, multimedia, visual arts and text."
     image   = "images/about/about.jpg"
     
     # Call to Action
@@ -96,11 +99,11 @@ defaultContentLanguage = "en"
     # social icon
     [[params.socialIcon]]
     icon = "ion-social-facebook"
-    url = "#"
+    url = "https://www.facebook.com/Kokos-Produkcija-110477254195024/"
     
     [[params.socialIcon]]
     icon = "ion-social-instagram"
-    url = "#"
+    url = "https://www.instagram.com/kokosprodukcija"
     
     [[params.socialIcon]]
     icon = "ion-social-linkedin"

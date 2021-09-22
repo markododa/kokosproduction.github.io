@@ -1,20 +1,18 @@
 enable  : true
-title   : Why We are Different
+title   : WHO ARE WE
 description: >
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequun. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Located in the capital of North Macedonia, Kokos Production is a video production company covering all phases of production from development, pre-production, production to post-production with high dedication in each phase offering quality final products as a video, photography, animation, multimedia or visual arts.
   <br>
   <br>
-  Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
 image   : images/about/about-company.jpg
 aboutItem:
   - title : Why Choose Us
     description: > 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
-
+      Kokos Production is a team of experienced professionals driven by creativity and challenged by the endless possibilities of putting that creativity into a specific work assignment.
   - title : What You Get
     description: > 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+      Professionals who are ready to take on any challenge and put an effort to achieve best quality execution of video, photography and animation projects while working with great equipment and providing the best services for our customers.
 
-  - title : Meet The Energy
+  - title : Our Clients
     description: > 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+      We are glad our team has worked with many content clients so far such as Pakomak, D fest, Kadar, Tiiint inc!, Investigative Reporting Lab, Scoop Macedonia, Taksirat, Cultural Echoes, Seavus, Division, Dina Jashari, Djolev and the arts and many others.
