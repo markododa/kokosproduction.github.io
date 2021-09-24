@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+{{ "<!-- Page Header -->" | safeHTML }}
+<section class="global-page-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>{{ .Title }}</h2>
+          <div class="portfolio-meta">
+            <span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>|
+            <span> Category: {{ delimit .Params.category ", " }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ "<!-- work details part start -->" | safeHTML }}
+<section class="work-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <!-- work single Content -->
+        <div class="work-single-content">
+
+
+<div class="embed video-player">
+<iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/{{ .Params.Id }}" allowfullscreen frameborder="0">
+</iframe>
+</div>
+	<br>
+	<br>
+
+    {{ with .Content }}
+    {{ . }}
+    {{ end }}
+
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{"<!-- work details part end -->" | safeHTML }}
+
+{{ partial "cta.html" . }}
+
+{{ end }}
