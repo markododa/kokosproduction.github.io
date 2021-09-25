@@ -14,8 +14,8 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="{{ .Page.Dir }}">
-		      {{ with .Site.GetPage .Page.Dir }}{{ .Title }}{{ end }} &nbsp; &nbsp;/
+		    <a href="{{ .Site.BaseURL }}{{ .File.Dir }}">
+		      {{ with .Site.GetPage .File.Dir }}{{ .Title }}{{ end }} &nbsp; &nbsp;/
               </a>
             </li>
 
