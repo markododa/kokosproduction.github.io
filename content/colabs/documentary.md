@@ -6,7 +6,6 @@ description : "This is meta description"
 caption: Documentary
 category: ["Videography", "Documentary", "Editing"]
 Id: gODlqbTKNIo
-
 location: Macedonia
 ---
 

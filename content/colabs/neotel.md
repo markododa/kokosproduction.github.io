@@ -6,7 +6,6 @@ description : "This is meta description"
 caption: Commercial
 category: ["Videography", "Commercial"]
 Id: 5f7YoGbds-8
-
 location: Macedonia
 ---
 

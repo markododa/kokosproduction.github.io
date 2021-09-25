@@ -6,7 +6,6 @@ description : "This is meta description"
 caption: Festival
 category: ["Videography", "Editing", "Festival"]
 Id: LN-wVY9vxr8
-
 location: Macedonia
 ---
 

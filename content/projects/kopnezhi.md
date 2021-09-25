@@ -6,7 +6,6 @@ description : "This is meta description"
 caption: Music Video
 category: ["Music Video", "Scenario", "Videography", "Editing"]
 Id: xM4E7L2uOaQ
-
 location: Macedonia
 ---
 

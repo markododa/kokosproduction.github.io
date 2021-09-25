@@ -6,7 +6,6 @@ description : "This is meta description"
 caption: Play
 category: ["Videography", "Play"]
 Id: SU3Q-A3yyO0
-
 location: Macedonia
 ---
 
