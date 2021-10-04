@@ -1,4 +1,4 @@
-baseURL = "https://kokosproduction.mk"
+baseURL = "https://kokosproduction.mk/"
 theme = "timer-hugo"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
@@ -85,7 +85,7 @@ defaultContentLanguage = "en"
     # Call to Action
     [params.cta]
     enable  = true
-    title   = "SO WHAT YOU THINK ?"
+    title   = "SO WHAT DO YOU THINK ?"
     content = "Get in touch with us to find out more"
     btnText = "Contact"
     btnURL  = "/contact"

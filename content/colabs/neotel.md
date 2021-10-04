@@ -9,4 +9,8 @@ Id: 5f7YoGbds-8
 location: Macedonia
 ---
 
-### Short commercial for Neo Tel. Videography by Kokos Production. 
+### Short commercial for Neo Tel. Videography by Kokos Production.
+
+Produced by: [Division](http://www.division.mk/) 
+
+Cinematography by Kristijan Karadzovski (Kokos Produkcuja)

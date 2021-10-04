@@ -10,3 +10,6 @@ location: Macedonia
 ---
 
 ### Commercial for recycling company Pakomak. Videography by Kokos Production.
+
+Produced by: [Флека ТВ](https://www.facebook.com/FlekaTV)  
+Cinematography by Kristijan Karadzovski (Kokos Produkcuja)

@@ -10,3 +10,8 @@ location: Macedonia
 ---
 
 ### Documentary by SCS Centar Jadro. Videography and editing by Kokos Production.
+
+Coproduction between
+Kokos Produkcija
+&
+[КСП Центар - Јадро](https://www.facebook.com/centarjadro)

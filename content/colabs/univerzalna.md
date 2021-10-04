@@ -9,4 +9,4 @@ Id: SU3Q-A3yyO0
 location: Macedonia
 ---
 
-### Theatre play for famous hall in North Macedonia. Videography by Kokos Production. 
+### Promotional video for the Theatre play for Universal hall in North Macedonia, produced by МКЦ & АКТО.
