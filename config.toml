@@ -10,36 +10,55 @@ defaultContentLanguage = "en"
   [languages.en]
     title = "Kokos Production"
     # Navbar Menus
+
     [[menu.main]]
     name    = "Home"
     url     = "/"
     weight  = 1
+
     [[menu.main]]
     name    = "About"
     url     = "about"
     weight  = 2
+
 #    [[menu.main]]
 #    name    = "Gallery"
 #    url     = "gallery"
 #    weight  = 3
+
     [[menu.main]]
     name    = "Contact"
     url     = "contact"
     weight  = 4
+
     [[menu.main]]
-    name    = "Projects"
+    name    = "Our Projects"
     weight  = 5
-    [[menu.main]]         
-     name    = "Our Projects"
-     url = "projects"
-     parent = "Projects"
-     weight  = 1
+    url = "projects"
+
     [[menu.main]]         
      name    = "Collaborations"
      url = "colabs"
-     parent = "Projects"
+     weight  = 6
+
+    [[menu.main]]         
+     name    = "Commercials"
+     url = "colabs/commercials"
+     parent = "Collaborations"
+     weight  = 1
+
+    [[menu.main]]         
+     name    = "Festivals & Promos"
+     url = "colabs/promos"
+     parent = "Collaborations"
      weight  = 2
 
+
+    [[menu.main]]         
+     name    = "Documentaries"
+     url = "colabs/documentaries"
+     parent = "Collaborations"
+     weight  = 3
 
 
     # Site Params

@@ -1,16 +1,15 @@
 ---
-title: "Neotel"
+title: "Pakomak"
 type: youtube
-date: 2021-09-20
+date: 2020-10-29
 description : "This is meta description"
 caption: Commercial
 category: ["Videography", "Commercial"]
-Id: 5f7YoGbds-8
+Id: S8f9dDJ7h-A
 location: Macedonia
 ---
 
-### Short commercial for Neo Tel. Videography by Kokos Production.
+### Commercial for recycling company Pakomak.
 
-Produced by: [Division](http://www.division.mk/) 
-
+Produced by: [Флека ТВ](https://www.facebook.com/FlekaTV)  
 Cinematography by Kristijan Karadzovski (Kokos Produkcuja)

@@ -9,7 +9,7 @@ Id: gODlqbTKNIo
 location: Macedonia
 ---
 
-### Documentary by SCS Centar Jadro. Videography and editing by Kokos Production.
+### Documentary by SCS Centar Jadro.
 
 Coproduction between
 Kokos Produkcija

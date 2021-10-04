@@ -1,5 +1,5 @@
 ---
 title: "Collaborations"
-description : "Collaborations with others"
+description: "Collaborations"
 ---
 

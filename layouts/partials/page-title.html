@@ -1,12 +1,11 @@
-{{ "<!-- Single Page Header -->" | safeHTML }}
+{{"<!-- Global Page Section Start -->" | safeHTML }}
 <section class="global-page-header">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
           <h2>{{ .Title }}</h2>
-
-	   <ol class="breadcrumb list-inline text-center">
+          <ol class="breadcrumb list-inline text-center">
             <li class="list-inline-item">
               <a href="{{ .Site.BaseURL }}">
                 <i class="ion-ios-home"></i>
@@ -15,23 +14,22 @@
 	      &nbsp; &nbsp;/
 
             </li>
-            <li class="list-inline-item">
-		    <a href="{{ .Site.BaseURL }}{{ .File.Dir }}">
-		      {{ with .Site.GetPage .File.Dir }}{{ .Title }}{{ end }} 
+	                {{ .Scratch.Set "parent" ( index ( split .File.Dir "/" ) 0 )}}
+			{{ if ne (.Scratch.Get "parent")  ( replace .File.Dir "/" "") }}
+			    {{ with .Site.GetPage ( .Scratch.Get "parent" )}}
+	                <li class="list-inline-item">
+                    <a href="{{ .Site.BaseURL }}{{ .File.Dir }}">
+			    {{ .Title }}
               </a>
-	      &nbsp; &nbsp;/
+              &nbsp; &nbsp;/
             </li>
-
+	    {{ end }}
+	    {{ end }}
             <li class="active list-inline-item">{{ .Title }}</li>
           </ol>
-
-          <div class="portfolio-meta">
-            <span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>|
-            <span> Category: {{ delimit .Params.category ", " }}</span>
-          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-{{ "<!-- Single Page Header End -->" | safeHTML }}
+{{"<!-- Global Page Section End -->" | safeHTML }}
