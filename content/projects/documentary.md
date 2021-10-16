@@ -9,7 +9,11 @@ Id: gODlqbTKNIo
 location: Macedonia
 ---
 
-### Documentary by SCS Centar Jadro.
+Documentary by SCS Centar Jadro.
+
+Short documentary „Theatre & Integration“ that follows the work of the independent cultural centre „КСП Центар - Јадро“ during the covid pandemy. 
+           Director and Camera: Kristijan Karadzovski 
+           Editor: Andrej Risteski
 
 Coproduction between
 Kokos Produkcija

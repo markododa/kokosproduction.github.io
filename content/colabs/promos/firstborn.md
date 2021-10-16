@@ -9,4 +9,4 @@ Id: LN-wVY9vxr8
 location: Macedonia
 ---
 
-### Festival in North Macedonia. Videography and editing by Kokos Production.
+Festival in North Macedonia. Videography and editing by Kokos Production.

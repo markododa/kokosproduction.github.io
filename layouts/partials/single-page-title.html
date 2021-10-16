@@ -27,7 +27,7 @@
 
           <div class="portfolio-meta">
             <span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>|
-            <span> Category: {{ delimit .Params.category ", " }}</span>
+	    {{ with .Params.category }}<span> Category: {{ delimit . ", " }}{{end}}</span>
           </div>
         </div>
       </div>

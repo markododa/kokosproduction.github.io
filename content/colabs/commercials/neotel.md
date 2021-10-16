@@ -9,7 +9,7 @@ Id: 5f7YoGbds-8
 location: Macedonia
 ---
 
-### Short commercial for Neo Tel.
+Short commercial for Neo Tel.
 
 Produced by: [Division](http://www.division.mk/) 
 

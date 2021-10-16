@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+{{ partial "single-page-title.html" . }}
+
+{{ "<!-- work details part start -->" | safeHTML }}
+<script async custom-element=amp-facebook src=https://cdn.ampproject.org/v0/amp-facebook-0.1.js></script>
+<section class="work-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <!-- work single Content -->
+        <div class="work-single-content">
+	<a href={{.Params.fbvideo}} >
+		<img src={{.Params.fbphoto}} width="50%" height="50%">
+		</a>
+
+    {{ with .Content }}
+    {{ . }}
+    {{ end }}
+
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{"<!-- work details part end -->" | safeHTML }}
+
+{{ partial "cta.html" . }}
+
+{{ end }}

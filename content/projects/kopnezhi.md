@@ -9,7 +9,7 @@ Id: xM4E7L2uOaQ
 location: Macedonia
 ---
 
-### Music Video for the upcoming talented artist [Dina Jashari](https://www.instagram.com/dinqee/)
+Music Video for the upcoming talented artist [Dina Jashari](https://www.instagram.com/dinqee/)
 
 Director and Camera: Kristijan Karadzovski  
 Editor: Andrej Risteski
