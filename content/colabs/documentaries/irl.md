@@ -32,5 +32,3 @@ Season 1:
  # Титаник од серава  
   
 {{< youtube ihfVVA0tx7s >}}
-  <br>
-Season 2:  On Going  
