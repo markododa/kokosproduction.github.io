@@ -5,6 +5,10 @@ theme = "timer-hugo"
 
 languageCode = "en-us"
 defaultContentLanguage = "en"
+extensions = [ "hardLineBreak" ]
+[markup.goldmark.renderer]
+hardWraps = true
+
 
 [languages]
   [languages.en]
@@ -36,6 +40,30 @@ defaultContentLanguage = "en"
     weight  = 5
     url = "projects"
 
+    [[menu.main]]
+    name    = "Promo Videos"
+    weight  = 2
+    url = "projects/promos"
+    parent = "Our Projects"
+
+    [[menu.main]]
+    name    = "Campaigns"
+    weight  = 3
+    url = "projects/campaigns"
+    parent = "Our Projects"
+
+    [[menu.main]]
+    name    = "Documentaries"
+    weight  = 4
+    url = "projects/documentary"
+    parent = "Our Projects"
+
+    [[menu.main]]
+    name    = "Music Videos"
+    weight  = 5
+    url = "projects/music"
+    parent = "Our Projects"
+
     [[menu.main]]         
      name    = "Collaborations"
      url = "colabs"
@@ -55,11 +83,10 @@ defaultContentLanguage = "en"
 
 
     [[menu.main]]         
-     name    = "Documentaries"
+     name    = "Documentary Series"
      url = "colabs/documentaries"
      parent = "Collaborations"
      weight  = 3
-
 
     # Site Params
     [params]
@@ -126,3 +153,8 @@ defaultContentLanguage = "en"
     
     [[params.socialIcon]]
     icon = "ion-social-linkedin"
+
+[params.oembed]
+  appId = "1052265942009871"
+  clientToken = "3a179459fde263c62cf721d9406e5bed"
+  privacy = false

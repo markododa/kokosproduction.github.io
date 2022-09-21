@@ -447,6 +447,7 @@ a:hover {
 .works {
   padding: 80px 0;
   background: #FCFCFC;
+  overflow: hidden;
 }
 
 .works .block {

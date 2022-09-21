@@ -10,15 +10,19 @@
       <div class="col-lg-8">
         <!-- work single Content -->
         <div class="work-single-content">
-	<a href={{.Params.fbvideo}} >
-		<img src={{.Params.fbphoto}} width="50%" height="50%">
-		</a>
-
+		{{ if .Params.playimg }}
+		<a href="{{ .Params.fbvideo }}">
+		<img class="img-fluid" src="{{ .Params.playimg | absURL }}" alt="fb-play" />
+		 </a>
+		{{ else }}
+		<iframe src="https://www.facebook.com/plugins/video.php?height=314&href={{ .Params.fbvideo }}%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+		{{ end }}
+     <br>
+     <br>
     {{ with .Content }}
     {{ . }}
     {{ end }}
 
-        </div>
       </div>
       </div>
     </div>

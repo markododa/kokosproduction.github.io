@@ -11,7 +11,8 @@
 
 					<div class="blog-post-image">
 						<a href="{{ .Permalink }}">
-							{{ with .Params.Id }}<img class="img-fluid" src="https://i.ytimg.com/vi/{{ .  }}/0.jpg" alt="post-image" />{{ end }}
+							{{ if not ( isset .Params "image") }}
+							{{ with .Params.Id }}<img class="img-fluid" src="https://i.ytimg.com/vi/{{ .  }}/hq720.jpg" alt="post-image" />{{ end }} {{ end }}
 							{{ with .Params.image }}<img class="img-fluid" src="{{ . | absURL }}" alt="post-image" />{{ end }}
 						</a>
 					</div>
@@ -20,7 +21,7 @@
 							<a href="{{ .Permalink }}">{{ .Title }}</a>
 						</h2>
 						<div class="blog-meta">
-							<span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>
+							<!--- 	<span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>*/ --->
 							{{ with .Params.author }}<span>by
 								{{ . }}
 							</span>

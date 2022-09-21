@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+{{ partial "single-page-title.html" . }}
+
+{{ "<!-- work details part start -->" | safeHTML }}
+<section class="work-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <!-- work single Content -->
+        <div class="work-single-content">
+
+    {{ with .Content }}
+    {{ . }}
+    {{ end }}
+
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{"<!-- work details part end -->" | safeHTML }}
+
+{{ partial "cta.html" . }}
+
+{{ end }}
