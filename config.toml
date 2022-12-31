@@ -1,4 +1,4 @@
-baseURL = "https://kokosproduction.mk/"
+baseURL = "https://www.kokosproduction.mk/"
 theme = "timer-hugo"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
