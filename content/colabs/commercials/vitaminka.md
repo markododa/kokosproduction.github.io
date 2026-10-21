@@ -1,6 +1,5 @@
 ---
 title: "Vitaminka"
-type: youtube
 date: 2021-12-12
 description : "This is meta description"
 caption: Commercial
