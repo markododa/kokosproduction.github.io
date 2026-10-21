@@ -1,6 +1,5 @@
 ---
 title: "Neotel Santa Claus"
-type: youtube
 date: 2021-12-03
 description : "This is meta description"
 caption: Commercial
