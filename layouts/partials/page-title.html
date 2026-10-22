@@ -11,20 +11,24 @@
                 <i class="ion-ios-home"></i>
                 Home 
               </a>
-	      &nbsp; &nbsp;/
-
-            </li>
-	                {{ .Scratch.Set "parent" ( index ( split .File.Dir "/" ) 0 )}}
-			{{ if ne (.Scratch.Get "parent")  ( replace .File.Dir "/" "") }}
-			    {{ with .Site.GetPage ( .Scratch.Get "parent" )}}
-	                <li class="list-inline-item">
-                    <a href="{{ .Site.BaseURL }}{{ .File.Dir }}">
-			    {{ .Title }}
-              </a>
               &nbsp; &nbsp;/
             </li>
-	    {{ end }}
-	    {{ end }}
+
+            {{ with .File }}
+              {{ $dir := .Dir }}
+              {{ $parent := index (split $dir "/") 0 }}
+              {{ if and (ne $dir "") (ne $parent (replace $dir "/" "")) }}
+                {{ with $.Site.GetPage $parent }}
+                  <li class="list-inline-item">
+                    <a href="{{ $.Site.BaseURL }}{{ $dir }}">
+                      {{ .Title }}
+                    </a>
+                    &nbsp; &nbsp;/
+                  </li>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+
             <li class="active list-inline-item">{{ .Title }}</li>
           </ol>
         </div>
